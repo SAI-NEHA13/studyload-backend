@@ -1,0 +1,14 @@
+### Add a task
+POST http://localhost:8081/api/tasks
+Content-Type: application/json
+
+{
+  "title": "DBMS Assignment",
+  "type": "Assignment",
+  "deadline": "2026-10-10",
+  "estimatedHours": 4,
+  "difficulty": "Hard"
+}
+
+### Get all tasks
+GET http://localhost:8081/api/tasks
