@@ -22,6 +22,7 @@ import com.studyload.studyload.service.TaskService;
     "http://localhost:5173",
     "https://studyload-frontend.vercel.app"
 })
+
 public class TaskController {
 
     private final TaskService taskService;
